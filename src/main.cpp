@@ -57,7 +57,7 @@ void DisplayWrite(void * parameter)
   {
     if((xQueueReceive(OledQueue, (void *)&DisplayString, 0) == pdTRUE))
     {
-      if(DisplayString != "draw")
+      if(DisplayString != "1")
       {
           display.clearDisplay();
           display.setCursor(0, 10);

@@ -1,3 +1,7 @@
+/*
+* This is a Bluetooth example using FreeRTOS on ESP32 dev board
+*/
+
 #include <Arduino.h>
 #include "FreeRTOS.h"
 
